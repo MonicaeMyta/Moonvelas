@@ -1,0 +1,35 @@
+.tituloRC{
+    font-family: $estilo-letra;
+    text-align: center;
+    color: $color-principal;
+}
+
+.regalosCorporativos {
+    @extend %flexboxRow;
+    flex-wrap: wrap;
+    width: $max-width;
+    justify-content:space-around;
+    margin-top: 60px;
+
+    .regalosCorporativos__contenedor {
+        width: 300px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        margin-bottom: 5px;
+        cursor: pointer;
+        padding: 15px;
+    }
+
+        .regalosCorporativos__contenedor__foto {
+            overflow:hidden;
+            width: 100%;}
+}
+
+.regalosCorporativos__contenedor__foto:hover {
+                -webkit-transform:scale(0.99);transform:scale(0.99);
+   
+}

@@ -1,0 +1,122 @@
+#encabezado {
+                margin-bottom: 40px;
+                @extend %flexboxColunm;
+                justify-content:end;
+                text-align: center;
+                width: $max-width;
+                background-color: map-get($mapa, color-secundario );
+}
+
+#encabezado__login a, .encabezado__buscar {
+                color: $color-principal;
+                text-decoration:none;
+                float: right;
+                font-family: $estilo-letra;
+}
+
+#encabezado__login {
+                text-align: right ;
+}
+
+.encabezado__buscar{
+                background: rgb(248, 245, 245);
+                border: $border;
+                border-radius: 5px 5px 5px 5px;
+                color: $color-principal;
+                font-size: 12px;
+                padding: 3px;
+                width: 150px;
+}
+
+
+#encabezado__titulo{
+                text-align:center;
+}
+
+
+#encabezado__titulo h1 {
+                font-family: $estilo-letra;
+                font-size: 75px;
+                text-align: center;
+                color: $color-principal;
+                width:$max-width;
+}
+
+#encabezado__titulo h2 {
+                font-family: $estilo-letra;
+                font-size:20px;
+                text-align: center;
+                color: $color-principal;
+                padding:0%;
+                margin-top:0%;
+                margin-bottom: 0%;
+                width: $max-width;
+}
+
+/*font-family: 'Raleway', sans-serif;*/
+
+#btn-menu{
+                display: none;
+}
+
+main label{
+                display: none;
+                width: 30px;
+                height: 30px;
+                padding: 10px;
+}
+
+main label:hover{
+                cursor: pointer;
+                background: rgba(0,0,0,0.3);
+}
+
+nav {
+                font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+                width: $max-width;
+                margin: 0 auto;
+                font-weight: 400;
+
+}
+
+#menu ul{
+                list-style: none;
+                display: flex ;
+                flex-direction: block;}
+
+#menu  li{
+                float: left;  
+     }
+
+#menu li a{
+
+                color: $color-principal;
+                padding: 5px 5px;
+                text-decoration: none;
+                min-width: 30px;
+                display: block;
+                margin-top: 2.5px;
+                font-weight: 400;
+                border-right: #231f20 1px solid;
+}
+
+#menu li a:hover{
+                background-color: $color-secundario;
+                text-align: right;
+                text-decoration: underline black;
+}
+
+#menu .menu__desplegable {
+                display:none;
+                position: absolute;
+
+}
+
+#menu li:hover .menu__desplegable{
+                 display:block;
+}
+
+
+.dropdown{
+                display:none;
+}

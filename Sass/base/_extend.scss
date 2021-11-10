@@ -1,0 +1,12 @@
+%flexboxRow{
+            display:flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+}
+
+
+%flexboxColunm{
+            display: flex;
+            flex-direction: column;
+}
