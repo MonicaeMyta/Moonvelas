@@ -27,7 +27,7 @@
 
 .encabezado__buscar {
   background: #f8f5f5;
-  border: 1px solid #231f20;
+  border: 1px solid black;
   border-radius: 5px 5px 5px 5px;
   color: #231f20;
   font-size: 12px;
@@ -221,7 +221,7 @@ nav {
   border-bottom: white;
   border-bottom: none; }
   .buttonGrid:hover {
-    border-bottom: 1px solid #231f20;
+    border-bottom: 1px solid black;
     transition-duration: 0.6s;
     scale: 1, 2; }
 
@@ -441,7 +441,7 @@ ul.breadcrumb li a:hover {
 .boxCategorias__productos__item3,
 .boxCategorias__productos__item4 {
   background-color: #dfccd1;
-  border: 1px solid #231f20;
+  border: 1px solid black;
   color: #231f20;
   padding: 10px 30px;
   font-size: medium;
