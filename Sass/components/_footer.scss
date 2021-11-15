@@ -3,7 +3,7 @@
         background-color: $color-principal;
         padding: 6rem;
         margin: 2rem 0 0;
-        height: 20rem; 
+        height:100%; 
         width: $max-width; } 
 
         .bannerFooter__contenedores{
@@ -12,7 +12,7 @@
 
                 &__section1 {
                     display: block;
-                    padding:40px;
+                    /*padding:40px;*/
                     font-family: $estilo-letra;
 }
 }
@@ -22,7 +22,7 @@
                     background-color: $color-principal;
                     border: 1px solid white;
                     margin-bottom: 10px;
-                    padding:10px;
+                    padding:0.8em;
                     color: white;
                     width: 250px;
                     height: 8px;
@@ -32,20 +32,21 @@
 
                     color: white;
                     margin-bottom: 20px;
-                    font-weight: 400;
-                    font-size: large
+                    font-size: 1.2em;
+                    font-family: $estilo-letra;
 }
 
 
 .bannerFooter__contenedores__section2 {
 
-                    background-color: $color-principal; 
+                    background-color: $color-principal;
+                    padding: 0%; 
 }
 
 .bannerFooter__section2__titulo {
                     color: white;
-                    padding: 15px;
-                    font-weight: 400;
+                    padding-bottom: 15px;
+                    /*font-weight: 400;*/
                     font-family: $estilo-letra;
 }
 
@@ -57,9 +58,25 @@
                 text-align: center;
                 list-style: none;
                 font-family: $estilo-letra;
+                text-align: left;
 
 
                 &__section2__items1{
                         text-decoration: none;
 }
+}
+
+.bannerFooter__section3__items{
+                text-decoration:none;
+                list-style-type: square ;
+                list-style: none;
+                display: flex;
+                flex-direction: row;
+                align-items: space-around;
+
+}
+
+.bannerFooter__section3__items1{
+                            margin-right:2em;
+                            text-decoration-color: none;
 }

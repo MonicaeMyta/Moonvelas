@@ -7,18 +7,21 @@
                 background-color: map-get($mapa, color-secundario );
 }
 
-#encabezado__login a, .encabezado__buscar {
+.encabezado__buscar {
                 color: $color-principal;
                 text-decoration:none;
                 float: right;
                 font-family: $estilo-letra;
+                margin-right: 10px;
 }
 
 #encabezado__login {
                 text-align: right ;
+
 }
 
 .encabezado__buscar{
+                display:none;
                 background: rgb(248, 245, 245);
                 border: $border;
                 border-radius: 5px 5px 5px 5px;
@@ -28,15 +31,44 @@
                 width: 150px;
 }
 
+.fas{
+               margin-right: 15px;
+               width: 1em;
+               height: 1em;
+}
+
+.fas:active{
+          line-height: 40px;
+}
+
+.btn-primary{
+     background-color: $color-principal;
+     margin-right: 5px;
+     padding: 0.3125em;
+
+
+     &:active {
+          background-color: $color-principal;
+          border: $color-principal 1px solid;
+     }
+}
+
+.modal-body{
+     text-align: left;
+}
 
 #encabezado__titulo{
                 text-align:center;
+                margin-left: 1.563em;
+                margin-right: 1.563em;
+                top:50px;
+                
 }
 
 
 #encabezado__titulo h1 {
                 font-family: $estilo-letra;
-                font-size: 75px;
+                font-size: 3.75em;
                 text-align: center;
                 color: $color-principal;
                 width:$max-width;
@@ -44,7 +76,7 @@
 
 #encabezado__titulo h2 {
                 font-family: $estilo-letra;
-                font-size:20px;
+                font-size:1.25em;
                 text-align: center;
                 color: $color-principal;
                 padding:0%;
@@ -76,13 +108,17 @@ nav {
                 width: $max-width;
                 margin: 0 auto;
                 font-weight: 400;
+                display: flex;
+                flex-direction: row;
+                text-align: center;
 
 }
 
 #menu ul{
                 list-style: none;
                 display: flex ;
-                flex-direction: block;}
+                flex-direction: row;
+}
 
 #menu  li{
                 float: left;  
@@ -91,13 +127,14 @@ nav {
 #menu li a{
 
                 color: $color-principal;
-                padding: 5px 5px;
+                padding: 0px 20px;
                 text-decoration: none;
-                min-width: 30px;
+                /*min-width: 30px;*/
+                line-height: 100%;
                 display: block;
                 margin-top: 2.5px;
                 font-weight: 400;
-                border-right: #231f20 1px solid;
+                
 }
 
 #menu li a:hover{
@@ -113,7 +150,7 @@ nav {
 }
 
 #menu li:hover .menu__desplegable{
-                 display:block;
+                 display:inline-block;
 }
 
 
