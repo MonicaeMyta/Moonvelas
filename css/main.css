@@ -10,7 +10,7 @@
   flex-direction: column; }
 
 #encabezado {
-  margin-bottom: 40px;
+  margin-bottom: 1.5em;
   justify-content: end;
   text-align: center;
   width: 100%;
@@ -37,7 +37,7 @@
   width: 150px; }
 
 .fas {
-  margin-right: 15px;
+  margin: 10px;
   width: 1em;
   height: 1em; }
 
@@ -73,9 +73,6 @@
   font-size: 1.25em;
   text-align: center;
   color: #231f20;
-  padding: 0%;
-  margin-top: 0%;
-  margin-bottom: 0%;
   width: 100%; }
 
 /*font-family: 'Raleway', sans-serif;*/
@@ -94,7 +91,6 @@ main label:hover {
 
 nav {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  width: 100%;
   margin: 0 auto;
   font-weight: 400;
   display: flex;
@@ -104,20 +100,23 @@ nav {
 #menu ul {
   list-style: none;
   display: flex;
-  flex-direction: row; }
+  flex-direction: row;
+  align-content: space-around; }
 
 #menu li {
   float: left; }
 
 #menu li a {
   color: #231f20;
-  padding: 0px 20px;
+  padding: 9px 20px;
   text-decoration: none;
-  /*min-width: 30px;*/
   line-height: 100%;
   display: block;
-  margin-top: 2.5px;
-  font-weight: 400; }
+  margin-top: 1.4em;
+  font-weight: 400;
+  text-align: center;
+  margin-left: 1em;
+  margin-right: 1em; }
 
 #menu li a:hover {
   background-color: #ccb8bd;
@@ -131,8 +130,16 @@ nav {
 #menu li:hover .menu__desplegable {
   display: inline-block; }
 
+.menu__desplegable__items {
+  display: block;
+  margin-right: 0%; }
+
 .dropdown {
   display: none; }
+
+.titulo {
+  display: flex;
+  flex-direction: row; }
 
 #bannerFooter {
   background-color: #231f20;
@@ -165,7 +172,9 @@ nav {
 
 .bannerFooter__contenedores__section2 {
   background-color: #231f20;
-  padding: 0%; }
+  padding: 0%;
+  margin-left: 4em;
+  margin-right: 4em; }
 
 .bannerFooter__section2__titulo {
   color: white;
@@ -190,11 +199,14 @@ nav {
   list-style: none;
   display: flex;
   flex-direction: row;
-  align-items: space-around; }
+  align-content: space-between; }
 
 .bannerFooter__section3__items1 {
   margin-right: 2em;
-  text-decoration-color: none; }
+  text-decoration-color: none;
+  display: flex;
+  flex-direction: row;
+  align-content: space-between; }
 
 * {
   margin: 0;

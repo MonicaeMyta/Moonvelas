@@ -41,6 +41,8 @@
 
                     background-color: $color-principal;
                     padding: 0%; 
+                    margin-left: 4em;
+                    margin-right:4em;
 }
 
 .bannerFooter__section2__titulo {
@@ -72,11 +74,16 @@
                 list-style: none;
                 display: flex;
                 flex-direction: row;
-                align-items: space-around;
+                align-content: space-between;
+                
 
 }
 
 .bannerFooter__section3__items1{
                             margin-right:2em;
                             text-decoration-color: none;
+                            display: flex;
+                            flex-direction: row;
+                            align-content: space-between;
+                
 }
