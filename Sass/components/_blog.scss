@@ -1,0 +1,121 @@
+*{
+        margin: 0;
+        border:0;
+    }
+
+.tituloBlog{
+    text-align: center;
+    font-family:'Times New Roman', Times, serif;
+    font-size: 2em;
+}
+
+
+.gridcontainer {
+    display: grid;
+    grid-template-columns: repeat( 8, 1fr);
+    grid-template-rows: repeat( 10, 100px);
+    margin: 2.5%;
+
+
+    .gridcontainer__item1 {
+        background-image: linear-gradient(to left, #14111173, #14111147,#14111156, #f0d5d575, #f0d5d5f3, #f2dbdb5f);
+        text-align: center;
+        grid-column-start: 4; 
+        grid-column-end: 9; 
+        grid-row-start: 1; 
+        grid-row-end: 3;
+}
+
+.gridcontainer__item2 {
+        background-image: linear-gradient(to bottom, #937d79, #e7e5e3 );
+        text-align: center;
+        grid-column-start: 1; 
+        grid-column-end: 4; 
+        grid-row-start: 3; 
+        grid-row-end: 6;
+}
+
+
+.gridcontainer__item3 {
+
+        text-align: center;
+        grid-column-start: 4; 
+        grid-column-end: 8; 
+        grid-row-start: 3; 
+        grid-row-end: 6;
+        padding: 7%;
+        text-align: left;
+}
+
+.gridcontainer__item4 {
+        background: rgb(116, 138, 118);
+        text-align: center;
+        grid-column-start: 4; 
+        grid-column-end: 8; 
+        grid-row-start: 6; 
+        grid-row-end: 11;
+}
+
+.gridcontainer__item5 {
+
+        text-align: center;
+        grid-column-start: 1; 
+        grid-column-end: 4; 
+        grid-row-start: 1; 
+        grid-row-end: 3;
+        padding: 5%;
+        text-align: left;
+}
+
+.gridcontainer__item6 {
+
+        text-align: center;
+        grid-column-start: 1; 
+        grid-column-end: 4; 
+        grid-row-start: 7; 
+        grid-row-end: 10;
+        padding: 5%;
+        text-align: left;}
+}
+
+        
+
+.buttonGrid{
+        padding: 5px;
+        background-color: white;
+        border-bottom: white;
+        border-bottom: none;
+                &:hover{
+
+        border-bottom: $border;
+        transition-duration: 0.6s; 
+        scale: (1,2);  
+}
+}
+
+.tituloGrid {
+        font-family:'Times New Roman', Times, serif;
+        font-size: 2em;
+        justify-content: center;
+        
+}
+
+
+.tituloBlog{
+        text-align: center;
+        font-family:'Times New Roman', Times, serif;
+        font-size: 2em;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

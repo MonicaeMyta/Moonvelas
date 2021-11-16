@@ -1,0 +1,173 @@
+#encabezado {
+                margin-bottom: 1.5em;
+                @extend %flexboxColunm;
+                justify-content:end;
+                text-align: center;
+                width: $max-width;
+                background-color: map-get($mapa, color-secundario );
+}
+
+.encabezado__buscar {
+                color: $color-principal;
+                text-decoration:none;
+                float: right;
+                font-family: $estilo-letra;
+                margin-right: 10px;
+}
+
+#encabezado__login {
+                text-align: right ;
+
+}
+
+.encabezado__buscar{
+                display:none;
+                background: rgb(248, 245, 245);
+                border: $border;
+                border-radius: 5px 5px 5px 5px;
+                color: $color-principal;
+                font-size: 12px;
+                padding: 3px;
+                width: 150px;
+}
+
+.fas{
+               margin: 10px;
+               width: 1em;
+               height: 1em;
+}
+
+.fas:active{
+          line-height: 40px;
+}
+
+.btn-primary{
+     background-color: $color-principal;
+     margin-right: 5px;
+     padding: 0.3125em;
+
+
+     &:active {
+          background-color: $color-principal;
+          border: $color-principal 1px solid;
+     }
+}
+
+.modal-body{
+     text-align: left;
+}
+
+#encabezado__titulo{
+                text-align:center;
+                margin-left: 1.563em;
+                margin-right: 1.563em;
+                top:50px;
+                
+                
+}
+
+
+#encabezado__titulo h1 {
+                font-family: $estilo-letra;
+                font-size: 3.75em;
+                text-align: center;
+                color: $color-principal;
+                width:$max-width;
+}
+
+#encabezado__titulo h2 {
+                font-family: $estilo-letra;
+                font-size:1.25em;
+                text-align: center;
+                color: $color-principal;
+                width: $max-width;
+}
+
+/*font-family: 'Raleway', sans-serif;*/
+
+#btn-menu{
+                display: none;
+}
+
+main label{
+                display: none;
+                width: 30px;
+                height: 30px;
+                padding: 10px;
+}
+
+main label:hover{
+                cursor: pointer;
+                background: rgba(0,0,0,0.3);
+}
+
+nav {
+                font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+                margin: 0 auto;
+                font-weight: 400;
+                display: flex;
+                flex-direction: row;
+                text-align: center;
+
+}
+
+#menu ul{
+                list-style: none;
+                display: flex ;
+                flex-direction: row;
+                align-content: space-around;
+}
+
+#menu  li{
+                float: left;  
+     }
+
+#menu li a{
+
+                color: $color-principal;
+                padding: 9px 20px;
+                text-decoration: none;
+                
+                line-height: 100%;
+                display: block;
+                margin-top: 1.4em;
+                font-weight: 400;
+                text-align: center;
+                margin-left: 1em;
+                margin-right: 1em;
+                
+}
+
+
+
+#menu li a:hover{
+                background-color: $color-secundario;
+                text-align: right;
+                text-decoration: underline black;
+}
+
+#menu .menu__desplegable {
+                display:none;
+                position: absolute;
+
+}
+
+#menu li:hover .menu__desplegable{
+                 display:inline-block;
+}
+
+.menu__desplegable__items{
+     display: block;
+     
+     margin-right: 0%;
+}
+
+
+.dropdown{
+                display:none;
+}
+
+.titulo {
+     display: flex;
+     flex-direction: row;
+}

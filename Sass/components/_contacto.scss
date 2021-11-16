@@ -1,0 +1,31 @@
+.mapa{
+                  
+    margin-top: 30px;
+    text-align: center;
+
+}
+
+.btn-primary {
+    color: #fff;
+    background-color: $color-principal;
+    border-color: $color-principal;
+}
+
+.formularioCheck{
+    display:flex;
+    justify-content: left;
+    justify-items: left;
+}
+
+#accordionFlushExample{
+margin-left: 10%;
+width: 90%;
+
+
+}
+
+form{
+ 
+width: $max-width;
+justify-content: center;
+}
