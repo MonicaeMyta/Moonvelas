@@ -2,7 +2,7 @@
                  
         background-color: $color-principal;
         padding: 6rem;
-        margin: 2rem 0 0;
+        margin: 0 0 0;
         height:100%; 
         width: $max-width; } 
 
@@ -61,6 +61,7 @@
                 list-style: none;
                 font-family: $estilo-letra;
                 text-align: left;
+                margin-left: 0px;
 
 
                 &__section2__items1{
@@ -68,19 +69,29 @@
 }
 }
 
+.bannerFooter__contenedores__section3{
+                margin-top: 20px;
+}
+
+/*.bannerFooter__contenedores__section3 ul{
+    margin-left: 0px;
+}*/
+
 .bannerFooter__section3__items{
                 text-decoration:none;
                 list-style-type: square ;
                 list-style: none;
                 display: flex;
                 flex-direction: row;
-                align-content: space-between;
+                align-content: space-around;
+                
                 
 
 }
 
 .bannerFooter__section3__items1{
-                            margin-right:2em;
+                            padding-right: 2.1em;
+                            margin-left: 0px;
                             text-decoration-color: none;
                             display: flex;
                             flex-direction: row;

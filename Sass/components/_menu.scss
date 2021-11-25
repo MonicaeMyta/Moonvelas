@@ -1,11 +1,11 @@
 #encabezado {
-                margin-bottom: 1.5em;
+                margin-bottom: 3em;
                 @extend %flexboxColunm;
                 justify-content:end;
                 text-align: center;
                 width: $max-width;
                 background-color: map-get($mapa, color-secundario );
-}
+}              
 
 .encabezado__buscar {
                 color: $color-principal;
