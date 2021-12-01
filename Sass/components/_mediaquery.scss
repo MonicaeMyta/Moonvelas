@@ -101,16 +101,20 @@ img {
 
 }
 
-.mapa{
-    width: 320px;
-    height: 150px;
-    display: inline-block;
-    margin-left: 20px;
-
-
-}
-
 .accordion{
     display: inline-block;
 }
+
+.sectionRow{
+                display: flex;
+                flex-direction: column;
+}
+
+}
+
+@media (max-width: 1220px){
+
+    
+
+
 }
