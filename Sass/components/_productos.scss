@@ -5,7 +5,7 @@
     grid-template-areas: 
     " categoria1 categoria2 categoria categoria4";
     grid-template-columns: 1fr 1fr 1fr 1fr;
-    justify-content: center;
+    justify-content:space-around;
     margin-top: 50px;
     font-style: none;
     color: $color-principal;
@@ -29,15 +29,10 @@
 .boxCategorias__productos__item3,
 .boxCategorias__productos__item4 {
                     background-color: #dfccd1;
-                    border: $border;
+                    border-radius: 10px;
                     color: $color-principal;
-                    padding: 10px 30px;
+                    padding: 8px;
                     font-size: medium;
-                    animation-name: animacion;
-                    animation-iteration-count: initial;
-                    animation-timing-function: ease-in;
-                    animation-duration: 2s;
-                    animation-delay: 0.5s;
                     margin: 5px;
                     font-style: none;
                  

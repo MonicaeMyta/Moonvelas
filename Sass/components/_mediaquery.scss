@@ -109,12 +109,55 @@ img {
                 display: flex;
                 flex-direction: column;
 }
+.tituloGrid{
+    font-size: 1.5em;
+}
 
 }
 
-@media (max-width: 1220px){
+@media (min-width: 480px) and (max-width: 1120px){
 
+    #menu {
+        display: none;
+}
+
+.dropdown{
+    display:block;
+    text-align: left;
+    margin-top: 10px;
+    margin-left: 10px;
+    color: white;
+    padding: 3px;
     
+}
+
+.dropdown-menu{
+    background-color: #f1dddd;
+}
+
+.dropdown-item:hover{
+        background-color: $color-secundario;
+}
+
+.btn-primary {
+    color: #fff;
+    background-color: #231f20;
+    border-color: #231f20;
+    padding: 5px;
+}
+
+.show>.btn-primary.dropdown-toggle {
+    color: #fff;
+    background-color: #231f20;
+    border-color: #231f20;
+}
+.img-fluid{
+    display: none;
+}
+
+.tituloGrid{
+    font-size: 1.7em;
+}
 
 
 }

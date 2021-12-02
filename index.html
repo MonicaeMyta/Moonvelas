@@ -43,10 +43,11 @@
 
 	<main id="encabezado">
 		<div id="encabezado__login">
-			<i class="fas fa-search"></i>
-			<input class="encabezado__buscar" search="type"></input>
+
+			
 
 			<!--login-->
+
 			<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-whatever="@mdo">Login</button>
 
 
@@ -89,6 +90,7 @@
 
 		</div>
 
+		<!-- titulo y menu-->
 		<div>
 			<div class="titulo">
 				<nav id="menu">
@@ -125,7 +127,8 @@
 			</nav>
 		</div>
 
-			<div class="dropdown">
+		<!--menu responsive-->
+		<div class="dropdown">
 				<button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown">
 				Menu
 				</button>
@@ -147,89 +150,80 @@
 		</div>
 	</main>
 
+	<!--breadcrumb inicio-->
+
 	<ul class="breadcrumb">
         <li><a href="index.html">Home</a></li>
     </ul>
+
+	<!--banner grande-->
 
 	<section class="particularBanner" style="background-image: url(Imagenes/bannerindex.jpg); height: 500px; margin: 0%;">
 		<div class="particularBanner__container">
 			<h1>INSPIRACION</h1>
 			<p>DESCUBRE EL UNIVERSO MOON</p>
-			<button class="button"><a href="Seccion nosotros.html">Ver mas > </a></button>
+			<button class="button"><a href="Web/Seccion nosotros.html">Ver mas > </a></button>
 		</div>
 	</section>
-	
+	<!--fotos inicio-->
+
 	<section class="particularBanner2">
 		<div class="particularBanner2__foto" style="background-image: url(Imagenes/fotoIndex1.jpg); width: 450px; height: 450px;">
 			<div class="particularBanner2__foto__texto">
 				<h1 class="particularBanner2__foto__titulo">¿SOS NUEVO?</h1>
 				<p>VISITA NUESTRA TIENDA ONLINE</p>
-				<button class="button"><a href="Seccion Productos.html">Ver mas ></a></button>
+				<button class="button"><a href="Web/Seccion Productos.html">Ver mas ></a></button>
 			</div>
 		</div>
 		<div class="particularBanner2__foto" style="background-image: url(Imagenes/fotoIndex2.jpg); width: 450px; height: 450px;">
 			<div class="particularBanner2__foto__texto">
 				<h1 class="particularBanner2__foto__titulo">FRAGANCES</h1>
 				<p>PERSONALIZA TU ESPACIO</p>
-				<button class="button"><a href="Seccion Productos.html">Ver mas > </a></button>
+				<button class="button"><a href="Web/Seccion Productos.html">Ver mas > </a></button>
 			</div>
 		</div>
 	</section>
 	
+	<!--instagram inicio-->
+
+	<div class="logoInstagram">
+			<img src="Imagenes/inocoinstagram.jpg" alt="logo de instagram" width="54px" height="54px">
+			<h3>Instagram</h3>
+	</div>
 
 
+	<div class="fotosInstagram">
+		<a href="https://www.instagram.com/" target="_blank"><img class="fotosInstagram__contenedor" src="Imagenes/instagram1.jpg" width="180px" height="190px"></a>
+		<a href="https://www.instagram.com/" target="_blank"><img class="fotosInstagram__contenedor" src="Imagenes/instagram4.jpg" width="180px" height="190px"></a>
+		<a href="https://www.instagram.com/" target="_blank"><img class="fotosInstagram__contenedor" src="Imagenes/instagram2.jpg" width="180px" height="190px"></a>
+		<a href="https://www.instagram.com/" target="_blank"><img class="fotosInstagram__contenedor" src="Imagenes/instagram5.jpg" width="180px" height="190px"></a>
+		<a href="https://www.instagram.com/" target="_blank"><img class="fotosInstagram__contenedor" src="Imagenes/instagram3.jpg" width="180px" height="190px"></a>
+	</div>
 
+	<!--footer-->
 
+	<div id="bannerFooter">
+		<div class="bannerFooter__contenedores">
+			<div class="bannerFooter__contenedores__section1">
+				<footer class="bannerFooter__section1__newslatter">Queres inspiracion, novedades y descuentos? 
+					<br>
+					Dejanos tu Email</footer>
+				<input class="newsLatter" seach="type"></input>
+				<button>Enviar</button>
+			</div>
 
-<div class="logoInstagram">
-		<img src="Imagenes/inocoinstagram.jpg" alt="logo de instagram" width="54px" height="54px">
-		<h3>Instagram</h3>
-</div>
-
-
-<div class="fotosInstagram">
-	<a href="https://www.instagram.com/" target="_blank"><img class="fotosInstagram__contenedor" src="Imagenes/instagram1.jpg" width="180px" height="190px"></a>
-	<a href="https://www.instagram.com/" target="_blank"><img class="fotosInstagram__contenedor" src="Imagenes/instagram4.jpg" width="180px" height="190px"></a>
-	<a href="https://www.instagram.com/" target="_blank"><img class="fotosInstagram__contenedor" src="Imagenes/instagram2.jpg" width="180px" height="190px"></a>
-	<a href="https://www.instagram.com/" target="_blank"><img class="fotosInstagram__contenedor" src="Imagenes/instagram5.jpg" width="180px" height="190px"></a>
-	<a href="https://www.instagram.com/" target="_blank"><img class="fotosInstagram__contenedor" src="Imagenes/instagram3.jpg" width="180px" height="190px"></a>
-</div>
-
-
-
-
-
-<footer id="bannerFooter">
-	<div class="bannerFooter__contenedores">
-		<div class="bannerFooter__contenedores__section1">
-			<h3 class="bannerFooter__section1__newslatter"><strong>Queres inspiracion, novedades y descuentos? </strong>
-				<br>
-				Dejanos tu Email</h3>
-			<input class="newsLatter" seach="type"></input>
-			<button>Enviar</button>
-		</div>
-
-		<div class="bannerFooter__contenedores__section2">
-				<h3 class="bannerFooter__section2__titulo"><strong>Buenas razones para comprar con nosotros</strong></h3>
-			<ul class="bannerFooter__section2__items">
-				<li class="bannerFooter__section2__items1">Envio gratis en compras superiores a $3000</li>
-				<li class="bannerFooter__section2__items1">Entrega rapida</li>
-				<li class="bannerFooter__section2__items1">365 dias con disponibilidad de compra</li>
-				<li class="bannerFooter__section2__items1">Atencion personalizada</li>
+			<div class="bannerFooter__contenedores__section3">
+				<h3 class="bannerFooter__section1__titulo" >Redes sociales</h3>
+			<ul class="bannerFooter__section3__items">
+				<li class="bannerFooter__section3__items1"><a href="https://www.facebook.com" target="_blank"><i class="fab fa-facebook-f"></i></a></li>
+				<li class="bannerFooter__section3__items1"><a href="https://www.instagram.com" target="_blank"><i class="fab fa-instagram"></i></a></li>
+				<li class="bannerFooter__section3__items1"><a href="https://www.pinterest.com" target="_blank"><i class="fab fa-pinterest-p"></i></a></li>
+				<li class="bannerFooter__section3__items1"><a href="https://www.google.com" target="_blank"><i class="fab fa-google-plus-g"></i></a></li>
 			</ul>
 		</div>
-		<div class="bannerFooter__contenedores__section3">
-			<h3 class="bannerFooter__section2__titulo"><strong>Redes sociales</strong></h3>
-		<ul class="bannerFooter__section3__items">
-			<li class="bannerFooter__section3__items1"><a href="https://www.facebook.com" target="_blank"><i class="fab fa-facebook-f"></i></a></li>
-			<li class="bannerFooter__section3__items1"><a href="https://www.instagram.com" target="_blank"><i class="fab fa-instagram"></i></a></li>
-			<li class="bannerFooter__section3__items1"><a href="https://www.pinterest.com" target="_blank"><i class="fab fa-pinterest-p"></i></a></li>
-			<li class="bannerFooter__section3__items1"><a href="https://www.google.com" target="_blank"><i class="fab fa-google-plus-g"></i></a></li>
-		</ul>
 	</div>
-</footer>
 
 
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 </body>
 </html>
