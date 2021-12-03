@@ -147,7 +147,8 @@ nav {
   .bannerFooter__contenedores__section1 {
     display: block;
     padding-right: 7em;
-    font-family: "Raleway", sans-serif; }
+    font-family: "Raleway", sans-serif;
+    margin-bottom: 3em; }
 
 .newsLatter {
   background-color: #231f20;
@@ -157,9 +158,6 @@ nav {
   color: white;
   width: 250px;
   height: 8px; }
-
-.bannerFooter__contenedores__section3 {
-  padding-left: 7em; }
 
 .bannerFooter__section1__newslatter {
   color: white;
@@ -173,6 +171,9 @@ nav {
   font-size: 1.2em;
   font-family: "Raleway", sans-serif;
   margin-left: 30px; }
+
+.bannerFooter__contenedores__section3 {
+  padding-left: 7em; }
 
 .bannerFooter__section3__items {
   text-decoration: none;
@@ -189,8 +190,7 @@ nav {
   text-decoration-color: none;
   display: flex;
   flex-direction: row;
-  align-content: space-around;
-  color: aqua; }
+  align-content: space-around; }
 
 a {
   color: white;
@@ -217,7 +217,7 @@ li {
 .gridcontainer {
   display: grid;
   grid-template-columns: repeat(8, 1fr);
-  grid-template-rows: repeat(10, 100px);
+  grid-template-rows: repeat(8, 100px);
   margin: 2.5%; }
   .gridcontainer .gridcontainer__item1 {
     background-image: linear-gradient(to left, #14111173, #14111147, #14111156, #f0d5d575, #f0d5d5f3, #f2dbdb5f);
@@ -247,7 +247,7 @@ li {
     grid-column-start: 4;
     grid-column-end: 8;
     grid-row-start: 6;
-    grid-row-end: 11; }
+    grid-row-end: 9; }
   .gridcontainer .gridcontainer__item5 {
     text-align: center;
     grid-column-start: 1;
@@ -261,7 +261,7 @@ li {
     grid-column-start: 1;
     grid-column-end: 4;
     grid-row-start: 7;
-    grid-row-end: 10;
+    grid-row-end: 9;
     padding: 5%;
     text-align: left; }
 
@@ -657,7 +657,12 @@ ul .mapadeSitio li a {
     color: #fff;
     background-color: #231f20;
     border-color: #231f20; }
+  /*seccion nosotros*/
   .nosotros {
+    width: 96%;
+    max-width: 549px;
+    margin: 0 auto;
+    margin-bottom: 0.5em;
     display: flex;
     flex-direction: column;
     margin-top: 70px;
@@ -665,11 +670,6 @@ ul .mapadeSitio li a {
     content: 80%;
     justify-content: center;
     width: 100%; }
-  .nosotros {
-    width: 96%;
-    max-width: 549px;
-    margin: 0 auto;
-    margin-bottom: 0.5em; }
     .nosotros__contenedorTexto {
       width: 100%;
       height: auto; }
@@ -684,27 +684,57 @@ ul .mapadeSitio li a {
     margin-bottom: 20px;
     margin-left: 8%;
     margin-right: 8%; }
-  .particularBanner2__foto {
-    margin-bottom: 30px;
-    width: 90%;
-    max-width: 350px;
-    text-align: center; }
+    .particularBanner2__foto {
+      margin-bottom: 30px;
+      width: 90%;
+      max-width: 350px;
+      text-align: center; }
   .particularBanner {
     display: none; }
-  .bannerFooter__contenedores__section2 {
-    display: none; }
+  .bannerFooter__contenedores__section3 {
+    padding-right: 7em;
+    padding-left: 0; }
   .logoInstagram {
-    width: 54px;
-    height: 54px;
+    margin-left: auto;
+    margin-bottom: 30px;
+    justify-content: center;
     text-align: center;
-    justify-content: center; }
+    position: relative;
+    left: 50%;
+    transform: translate(-50%);
+    width: 100%; }
   .accordion {
     display: inline-block; }
   .sectionRow {
     display: flex;
     flex-direction: column; }
   .tituloGrid {
-    font-size: 1.5em; } }
+    font-size: 1.1em; } }
+
+@media (min-width: 480px) and (max-width: 930px) {
+  .particularBanner2 {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: space-around;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 30px;
+    width: 45em;
+    justify-content: center;
+    text-align: center;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%);
+    width: 75%; }
+  .particularBanner2__foto {
+    margin-bottom: 30px;
+    width: 90%;
+    max-width: 100%;
+    text-align: center; } }
 
 @media (min-width: 480px) and (max-width: 1120px) {
   #menu {
@@ -732,4 +762,10 @@ ul .mapadeSitio li a {
   .img-fluid {
     display: none; }
   .tituloGrid {
-    font-size: 1.7em; } }
+    font-size: 1.7em; }
+  .bannerFooter__contenedores__section3 {
+    padding-right: 7em;
+    padding-left: 0; }
+  .particularBanner2__foto img {
+    max-height: auto;
+    width: 100%; } }

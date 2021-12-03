@@ -13,7 +13,7 @@
 .gridcontainer {
                         display: grid;
                         grid-template-columns: repeat( 8, 1fr);
-                        grid-template-rows: repeat( 10, 100px);
+                        grid-template-rows: repeat( 8, 100px);
                         margin: 2.5%;
 
 
@@ -45,6 +45,7 @@
                         grid-row-end: 6;
                         padding: 7%;
                         text-align: left;
+                        
 }
 
 .gridcontainer__item4 {
@@ -53,7 +54,7 @@
                         grid-column-start: 4; 
                         grid-column-end: 8; 
                         grid-row-start: 6; 
-                        grid-row-end: 11;
+                        grid-row-end: 9;
 }
 
 .gridcontainer__item5 {
@@ -64,8 +65,8 @@
                         grid-row-start: 1; 
                         grid-row-end: 3;
                         padding: 5%;
-                        text-align: left;
-}
+                        text-align: left;}
+                        
 
 .gridcontainer__item6 {
 
@@ -73,9 +74,10 @@
                         grid-column-start: 1; 
                         grid-column-end: 4; 
                         grid-row-start: 7; 
-                        grid-row-end: 10;
+                        grid-row-end: 9;
                         padding: 5%;
-                        text-align: left;}
+                        text-align: left;
+}
 }
 
         
