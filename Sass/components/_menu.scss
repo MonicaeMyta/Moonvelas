@@ -148,17 +148,22 @@ nav {
 #menu .menu__desplegable {
                 display:none;
                 position: absolute;
+                
+                
 
 }
 
 #menu li:hover .menu__desplegable{
-                 display:inline-block;
+               display:flex;
+               flex-direction: row;
+              
+                
 }
 
 .menu__desplegable__items{
-     display: block;
-     
-     margin-right: 0%;
+               display: block;
+               margin-right: 0%;
+               padding-left: 0;
 }
 
 
@@ -167,7 +172,7 @@ nav {
 }
 
 .titulo {
-     display: flex;
-     flex-direction: row;
+               display: flex;
+               flex-direction: row;
 }
 

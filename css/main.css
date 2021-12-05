@@ -122,11 +122,13 @@ nav {
   position: absolute; }
 
 #menu li:hover .menu__desplegable {
-  display: inline-block; }
+  display: flex;
+  flex-direction: row; }
 
 .menu__desplegable__items {
   display: block;
-  margin-right: 0%; }
+  margin-right: 0%;
+  padding-left: 0; }
 
 .dropdown {
   display: none; }
@@ -193,7 +195,7 @@ nav {
   align-content: space-around; }
 
 a {
-  color: white;
+  color: rgba(114, 112, 112, 0.856);
   text-decoration: none;
   list-style-type: none; }
   a:hover {
