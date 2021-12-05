@@ -64,6 +64,11 @@
     }
 }
 
+.particularBanner2__foto{
+                          width: 100%;
+                          height: auto;;
+}
+
 .particularBanner2__foto__titulo{
 font-size: 1.8em;
 }
@@ -104,6 +109,7 @@ ul.breadcrumb {
   display: block;
   text-align: center;
   margin-top: 50px;
+  justify-content: center;
 }
 
 .fotosInstagram{
@@ -119,6 +125,7 @@ ul.breadcrumb {
               text-align: center;
               border: $color-principal 1px solid;
               cursor: pointer;
+              margin:1px;
 
               &:hover{
                 opacity: 0.5;

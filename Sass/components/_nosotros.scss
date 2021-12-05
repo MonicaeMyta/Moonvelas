@@ -3,11 +3,11 @@
 
 .nosotros{
             @extend %flexboxRow;
-            margin-top: 70px;
+            margin-top: 30px;
             margin-bottom: 50px;
             content: 80%;
             width: $max-width;
-          
+            
 
             &__contenedorTexto{
                     height: 367px;
@@ -29,6 +29,11 @@
                                     line-height: 25px;
             }
         }
+
+.img-fluid{
+    max-width: 100%;
+    height: auto;
+}
     
 
     

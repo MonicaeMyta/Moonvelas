@@ -1,35 +1,18 @@
 #encabezado {
-                margin-bottom: 1.5em;
+                margin-bottom: 3em;
                 @extend %flexboxColunm;
                 justify-content:end;
                 text-align: center;
                 width: $max-width;
                 background-color: map-get($mapa, color-secundario );
-}
+}              
 
-.encabezado__buscar {
-                color: $color-principal;
-                text-decoration:none;
-                float: right;
-                font-family: $estilo-letra;
-                margin-right: 10px;
-}
 
 #encabezado__login {
                 text-align: right ;
 
 }
 
-.encabezado__buscar{
-                display:none;
-                background: rgb(248, 245, 245);
-                border: $border;
-                border-radius: 5px 5px 5px 5px;
-                color: $color-principal;
-                font-size: 12px;
-                padding: 3px;
-                width: 150px;
-}
 
 .fas{
                margin: 10px;
@@ -45,12 +28,26 @@
      background-color: $color-principal;
      margin-right: 5px;
      padding: 0.3125em;
+     border:1px solid $color-principal;
 
 
      &:active {
           background-color: $color-principal;
           border: $color-principal 1px solid;
      }
+     &:hover{
+          background-color: $color-secundario;
+          box-shadow: 0 1px 1px rgba(229, 103, 23, 0.075)inset, 0 0 5px $color-secundario;
+          border:none;
+          color: $color-principal;
+     }
+     &:focus{
+          background-color: $color-secundario;
+          box-shadow: 0 1px 1px rgba(229, 103, 23, 0.075)inset, 0 0 5px $color-secundario;
+          border:none;
+          color: $color-principal;
+     }
+     
 }
 
 .modal-body{
@@ -73,6 +70,10 @@
                 text-align: center;
                 color: $color-principal;
                 width:$max-width;
+                text-shadow: 
+                              4px 4px 0px #d5d5d5, 
+                              7px 7px 0px rgba(0, 0, 0, 0.2);
+                              
 }
 
 #encabezado__titulo h2 {
@@ -83,7 +84,6 @@
                 width: $max-width;
 }
 
-/*font-family: 'Raleway', sans-serif;*/
 
 #btn-menu{
                 display: none;
@@ -139,7 +139,6 @@ nav {
 }
 
 
-
 #menu li a:hover{
                 background-color: $color-secundario;
                 text-align: right;
@@ -149,17 +148,22 @@ nav {
 #menu .menu__desplegable {
                 display:none;
                 position: absolute;
+                
+                
 
 }
 
 #menu li:hover .menu__desplegable{
-                 display:inline-block;
+               display:flex;
+               flex-direction: row;
+              
+                
 }
 
 .menu__desplegable__items{
-     display: block;
-     
-     margin-right: 0%;
+               display: block;
+               margin-right: 0%;
+               padding-left: 0;
 }
 
 
@@ -168,6 +172,7 @@ nav {
 }
 
 .titulo {
-     display: flex;
-     flex-direction: row;
+               display: flex;
+               flex-direction: row;
 }
+
